@@ -9,7 +9,7 @@ const CarouselProductos = () => {
   return (
     <div className='carousel_contenedor'>
         <Carousel data-bs-theme="dark" className='carousel'>
-            <Carousel.Item className='carousel_item'>
+            <Carousel.Item className='carousel_item_prod'>
                 <Row>
                     <Col>
                         <img className="carousel_prod" src={foto_1} alt="First slide" />
