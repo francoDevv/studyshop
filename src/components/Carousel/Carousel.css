@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel_contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.carousel {
+    height: 50vh;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_item {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_img {
+    height: 23em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 25vh;
+    }
+
+    .carousel_img {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

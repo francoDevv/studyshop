@@ -1,0 +1,13 @@
+.carousel_item_prod {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_prod {
+    width: 200px;
+    height: 20vh;
+}
+
+/* NO FUNCIONA ESTO NI LO DE AL LADO
