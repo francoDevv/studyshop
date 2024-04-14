@@ -1,7 +1,6 @@
 import React from 'react'
 import foto_1 from '../../../public/ezequiel.png'
 import foto_2 from '../../../public/banner_moni.png'
-import foto_3 from '../../../public/logo-studyshop.jpg'
 import { Carousel, Col, Row } from 'react-bootstrap'
 import './CarouselProductos.css'
 

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #565656 !important;
+}
+
+.menu-dropdown {
+    font-size: 18px;
+}
+
+.menu:hover {
+    color: pink !important;
+}
+
+.menu-dropdown:hover {
+    color: pink !important;
+}
+
+#basic-nav-dropdown:hover {
+    color: pink;
+}
